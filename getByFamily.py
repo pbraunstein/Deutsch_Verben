@@ -42,8 +42,6 @@ def main():
         view(filteredTable)
     elif option == "-s":
         view(filteredTable)
-    elif option == "-h":
-        usage()
     else:
         print "ERROR: Invalid option:", option
         usage()
@@ -53,7 +51,6 @@ def main():
 
 # Prints usage and exits non-zero
 def usage():
-    print "USAGE:", argv[0], "-h", "root", "--", "view this message"
     print "USAGE:", argv[0], "-s", "root", "--", "just print"
     print "USAGE:", argv[0], "-t", "root", "--", "test then print"
     print "Default option is -t"
