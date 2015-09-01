@@ -6,7 +6,7 @@ import csv
 import random
 
 # CONSTANTS
-DB_FILE = "/Users/Phippe/Developer/Self_Betterment/dl.csv"
+DB_FILE = "dl.csv"
 
 def main():
     if len(argv) > 1:
