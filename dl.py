@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# Tests the user on a random word pulled from the database
+
 from sys import argv
 from sys import exit
 import csv

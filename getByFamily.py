@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 # Looks in the DB file for words maching the ending supplied
-# to the script. Looks only in the first column of the CSV.
+# on the command line. This script can be used to test all the words with
+# this ending or can be used to simply list all of the words.
 
 DB_FILE = "/Users/Phippe/Developer/Self_Betterment"
 
