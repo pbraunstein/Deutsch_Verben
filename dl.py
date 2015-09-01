@@ -15,6 +15,8 @@ def main():
 
     data = buildList()
 
+    print "Choosing from", len(data), "words"
+
     displayAndTest(random.choice(data))
     
     exit(0)
